@@ -1,0 +1,77 @@
+/** @format */
+/* Resetting default margin and padding */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	padding: 20px;
+}
+
+/* Container styles */
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+/* Card styles */
+.card {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.card-header {
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
+
+.card-header h1,
+.card-header h2 {
+	color: #333;
+	margin: 0;
+}
+
+/* Fieldset styles */
+fieldset {
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+legend {
+	font-weight: bold;
+}
+
+/* Log styles */
+.logs {
+	margin-top: 20px;
+}
+
+.logs legend {
+	color: #666;
+}
+
+.logs .card {
+	background-color: #f9f9f9;
+	border-left: 3px solid #ccc;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+/* Link styles */
+a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
